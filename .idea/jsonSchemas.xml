@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="DDEV">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="DDEV" />
+              <option name="relativePathToSchema" value="jar://$APPLICATION_PLUGINS_DIR$/ddev-intellij-plugin/lib/instrumented-ddev-intellij-plugin-1.1.0.jar!/schema/ddev-config-1.19.schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value=".ddev/config.yaml" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
