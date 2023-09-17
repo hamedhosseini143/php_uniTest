@@ -27,3 +27,4 @@ Thumbs.db
 /vendor/
 /.phpunit.cache/
 /.ddev/
+.idea
