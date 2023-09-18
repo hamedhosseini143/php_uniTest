@@ -17,6 +17,14 @@
             </list>
           </settings>
         </remote-mappings>
+        <remote-mappings server-id="php@77d3322d-e1d2-4e80-b00f-1d8b1b2d4642" />
+        <remote-mappings server-id="php@bcefc11f-ffb0-4cc6-b93a-641184484ee9">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html" />
+            </list>
+          </settings>
+        </remote-mappings>
       </list>
     </list>
   </component>

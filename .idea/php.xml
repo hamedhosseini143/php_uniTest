@@ -13,6 +13,33 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
     </include_path>
   </component>
   <component name="PhpInterpreters">
@@ -25,6 +52,27 @@
           </dockerComposeConfigurationPaths>
           <envs>
             <env name="COMPOSE_PROJECT_NAME" value="ddev-unit" />
+          </envs>
+        </remote_data>
+      </interpreter>
+      <interpreter id="bcefc11f-ffb0-4cc6-b93a-641184484ee9" name="DDEV" home="docker-compose://DATA" false="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php8.1" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_COMPOSE_SERVICE_NAME="web" DOCKER_REMOTE_PROJECT_PATH="/opt/project">
+          <PathMappingSettings>
+            <option name="pathMappings">
+              <list>
+                <mapping local-root="$PROJECT_DIR$" remote-root="/var/tmp/html" />
+                <mapping local-root="$PROJECT_DIR$/.ddev" remote-root="/mnt/ddev_config" />
+                <mapping local-root="$PROJECT_DIR$/.ddev/xhprof" remote-root="/usr/local/bin/xhprof" />
+                <mapping local-root="$APPLICATION_CONFIG_DIR$/scratches" remote-root="/opt/scratches" />
+              </list>
+            </option>
+          </PathMappingSettings>
+          <type_data command="EXEC" />
+          <dockerComposeConfigurationPaths>
+            <item value="$PROJECT_DIR$/.ddev/.ddev-docker-compose-full.yaml" />
+          </dockerComposeConfigurationPaths>
+          <envs pass-parent-envs="false">
+            <env name="COMPOSE_PROJECT_NAME" value="ddev-php-unit" />
           </envs>
         </remote_data>
       </interpreter>
@@ -116,7 +164,8 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="60be1748-a9a5-4e78-9d52-05a5ca9c9dbb" custom_loader_path="/var/www/html/vendor/" phpunit_phar_path="" />
+      <phpunit_by_interpreter interpreter_id="77d3322d-e1d2-4e80-b00f-1d8b1b2d4642" custom_loader_path="/var/www/html/vendor/autoload.php" phpunit_phar_path="" />
+      <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
     </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
